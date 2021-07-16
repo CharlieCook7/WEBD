@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <title>Charlie Cook</title>
+        <link rel="stylesheet" href="MusicShop.css">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="Charlie Cook Logo.png" alt="Charlie Cook Logo" class="col-2">
+            </figure>
+
+            <h1 class="col-12">Cook Music Store</h1>
+            <nav>
+            <a href="MusicShopHome.html" class="col-2">Home</a>
+            <a href="MusicShopShopping.html" class="col-2">Shopping</a>
+            <a href="MusicShopLessons.html" class="col-2">Lessons</a>
+            <a href="MusicShopPlanning.html" class="col-2">Site Plan</a>
+            </nav><br>
+            <h2 class="col-12">Lessons</h2>
+            </header>
+            <!--Header and navigation links-->
+
+            <form action="mailto:W0468709@nscc.ca?subject=From%20our%20Website" 
+        method="post" enctype="text/plain">
+
+            <section class="row">
+                <section class="col-4">
+                    <label for="name" id="name">Full Name <i>(Letters only)</i></label><br>
+        <input type="text" name="name" minlength="2" required="required" pattern="[a-zA-Z]+">
+                </section>
+                <!--The user will input their name here-->
+
+        <section class="col-4">
+            <label for="age">Age</label><br>
+            <input type="number" name="age" required="required">
+        </section>
+        <!--The user puts their age here-->
+
+        <section id="instrument" class="col-4">
+        <label for="instrument">What instrument(s) do you want lessons for? <i>(Hold the CTRL key to select multiple)</i></label><br>
+        <select name="instrument" size="6" multiple>
+            <option value="Guitar">Guitar</option>
+            <option value="Trombone">Trombone</option>
+            <option value="Trumpet">Trumpet</option>
+            <option value="Violin">Violin</option>
+            <option value="Flute">Flute</option>
+            <option value="Clarinet">Clarinet</option>
+        </select>
+        </section>
+        </section><br>
+        <!--Here the user selects what instrument they want lessons for-->
+
+        <section class="row">
+        
+        <section id="OptimalDay" class="col-4">
+        <label for="OptimalDay">What day(s) of the week are the best time for your lessons? <i>(Hold the CTRL key to select multiple)</i></label><br>
+        <select name="OptimalDay" size="7" multiple>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+        </select>
+        </section>
+
+        <section id="OptimalTime" class="col-4">
+        <label for="OptimalTime">What time of day is the best for your lessons?</label><br>
+        <select name="OptimalTime" size="3">
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            </select>
+        </section>
+
+        <section id="Location" class="col-4">
+            <label for="Location">Would you prefer to have an instructor come to your home for lessons, or for you to go to Cook Music Shop for lessons?</label><br>
+            <input type="radio" id="Home" value="Home">
+            <label for="Home">Instructor comes to me</label><br>
+            <input type="radio" id="Away" value="Away">
+            <label for="Away">I go to Cook Music Shop</label><br>
+        </section>
+        </section>
+
+        <section class="row">
+
+        <section class="col-6">
+                    <label for="Address" id="Address">If you prefer for an instructor to come to you, please fill in your address</label><br>
+        <input type="text" name="Address" minlength="2" pattern="[a-zA-Z0-9]+">
+                </section>
+
+                <input type="submit" value="Submit">
+
+</section>
+        </form>
+
+        <footer>
+            <address>
+            6065 Cunard St<br>
+            Halifax, NS, Canada<br>
+            1-902-496-6900<br>
+            CookMusic@Gmail.com
+            </address>
+            </footer>
+            <!--Some "contact information" (The address and phone number are just for Long & McQuade)-->
+    </body>
+</html>
