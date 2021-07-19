@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  /*All of that is just making sure the collumns work coorrectly*/
+  * {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+  h1, h2, nav, p, footer, td, caption, a, label {background-color: #9e0000; color: #ffffff}
+
+  td {text-align: center;}
+  
+  footer {font-size:smaller}
+
+  body {background-color: #b46969;}
+  /*some quick colours and text formatting to pretty things up a bit*/
+
+  #shopping {background-image: url('https://st2.depositphotos.com/1177973/10975/i/950/depositphotos_109754080-stock-photo-collage-of-musical-instruments.jpg');
+    padding-top: 20.83%; padding-bottom: 53%; background-size: 100%;text-align: center; font-size: 150%; 
+}
+
+  #lessons {background-image: url('https://www.long-mcquade.com/images/lessons/wind_lessons_highlight.jpg');
+    padding-top: 20.83%; padding-bottom: 53%; background-size: 100%; text-align: center; font-size: 150%;
+}
+/*Giving the links on the home page some backgrounds, first image is just a stock photo, second image credit to Long & McQuade*/
