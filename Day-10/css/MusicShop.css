@@ -52,11 +52,11 @@
   /*Setting the width of each column class*/
   * {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-  h1, h2, nav, p, footer, td, caption, a, label {background-color: #9e0000; color: #ffffff}
+  h1, h2, nav, p, td, caption, a, label {background-color: #9e0000; color: #ffffff}
 
   td {text-align: center;}
   
-  footer {font-size:80%}
+footer {font-size:80%; text-align:centre}
 
   body {background-color: #b46969;}
   /*some quick colours and text formatting to pretty things up a bit*/
