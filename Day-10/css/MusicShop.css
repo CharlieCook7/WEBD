@@ -2,6 +2,24 @@
     box-sizing: border-box;
   }
 
+.topnav a {  
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+@media screen and (max-width: 880px) {
+    .topnav a {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 25%;
+      padding: 8px 8px;
+    }
+}
+
+
   [class*="col-"] {
     float: left;
     padding: 15px;
