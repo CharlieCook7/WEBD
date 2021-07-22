@@ -28,13 +28,6 @@
 
 /*Changing the navigation bar to be vertical when the screen is too thin*/
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-/*This was supposed to help line up my tables but I don't think it worked*/
-
 [class*="col-"] {
   float: left;
   padding: 5px;
