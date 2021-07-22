@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charlie Cook</title>
+        <link rel="stylesheet" href="MusicShop.css">
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="Charlie Cook Logo.png" alt="Charlie Cook Logo" class="col-2">
+            </figure>
+
+            <h1 class="col-12">Cook Music Store</h1>
+            <nav class="topnav">
+            <a href="MusicShopHome.html" class="col-2">Home</a>
+            <a href="MusicShopShopping.html" class="col-2">Shopping</a>
+            <a href="MusicShopLessons.html" class="col-2">Lessons</a>
+            <a href="MusicShopPlanning.html" class="col-2">Site Plan</a>
+            </nav><br>
+            <h2 class="col-12">Shopping Order</h2>
+            </header>
+            <!--Header and navigation links-->
+
+            <article class="col-4" class="row">
+                <p>Fill out the form below so we know where to ship your order and how to take your payment</p>
+                <aside>All fields are required</aside>
+            </article>
+
+            <form action="mailto:Laura.Franks@nscc.ca?subject=From%20our%20Website" 
+        method="post" enctype="text/plain">
+
+        <section class="row">
+            <section id="name" class="col-4">
+                <label for="name" id="name">Full Name <i>(Letters only)</i></label><br>
+    <input type="text" name="name" minlength="2" required="required" pattern="[a-zA-Z]+">
+            </section>
+
+            <section id="phone" class="col-4">
+                <label for="phone">Phone number</label><br>
+                <input type="tel" name="phone" required="required">
+            </section>
+
+            <section id="email" class="col-4">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" required="required">
+            </section>
+            </section>
+
+            <section class="row">
+                <section id="postal" class="col-4">
+                    <label for="postal">Postal code</label><br>
+                    <input type="text" name="postal" required="required" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]">
+            </section>
+
+            <section id="country" class="col-4">
+                <label for="country">Two-letter country code</label><br>
+                <input type="text" name="country" required="required" maxlength="2"> 
+            </section>
+
+            <section id="state/province" class="col-4">
+                <label for="state/province">What state/province/subdivision do you live in?</label><br>
+                <input type="text" name="state/province" required="required" pattern="[a-zA-Z]+">
+            </section>
+            </section>
+
+            <section class="row">
+            <section id="city" class="col-4">
+                <label for="city">What city do you live in?</label><br>
+                <input type="text" name="city" required="required" pattern="[a-zA-Z0-9]+">
+            </section>
+
+            <section id="address" class="col-4">
+                <label for="address">What is your mailing address?</label><br>
+                <input type="text" name="address" required="required" pattern="[a-zA-Z0-9]+">
+            </section>
+
+            <section id="creditCard" class="col-4">
+                <label for="creditCard">What is your credit card number?</label><br>
+                <input type="text" name="creditCard" required="required" pattern="[0-9]+">
+            </section>
+            </section>
+
+            <input type="submit" value="Send" class="col-1"><br><br>
+
+        <footer>
+            <address>
+            6065 Cunard St<br>
+            Halifax, NS, Canada<br>
+            1-902-496-6900<br>
+            CookMusic@Gmail.com
+            </address>
+            </footer>
+            <!--Some "contact information" (The address and phone number are just for Long & McQuade)-->
+    </body>
+</html>
