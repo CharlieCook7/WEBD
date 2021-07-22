@@ -3,108 +3,53 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Charlie Cook</title>
-        <link rel="stylesheet" href="css/MusicShop.css">
+        <link rel="stylesheet" href="MusicShop.css">
+        <!--July 16th, 2021-->
     </head>
     <body>
         <header>
             <figure>
-                <img src="images/Charlie Cook Logo.png" alt="Charlie Cook Logo" class="col-2">
+                <img src="Charlie Cook Logo.png" alt="Charlie Cook Logo" class="col-2">
             </figure>
 
             <h1 class="col-12">Cook Music Store</h1>
             <nav class="topnav">
-            <a href="index.html" class="col-2">Home</a>
+            <a href="MusicShopHome.html" class="col-2">Home</a>
             <a href="MusicShopShopping.html" class="col-2">Shopping</a>
             <a href="MusicShopLessons.html" class="col-2">Lessons</a>
             <a href="MusicShopPlanning.html" class="col-2">Site Plan</a>
             </nav><br>
-            <h2 class="col-12">Lessons</h2>
+            <h2 class="col-12">Home</h2>
             </header>
             <!--Header and navigation links-->
 
-            <form action="mailto:W0468709@nscc.ca?subject=From%20our%20Website" 
-        method="post" enctype="text/plain">
+            <article class="col-5">
+            <p>Cook music offers lessons for guitar, violin, trumpet. trombone, flute, and clarinet, regardless of your skill level.
+                Our instructors are ready to work whatever date and time works best for you. Whether you come to us for your lessons, or we come to you,
+                we are dedicated to make lessons as convenient for you as possible.
+            </p>
 
-            <section class="row">
-                <section class="col-4">
-                    <label for="name" id="name">Full Name <i>(Letters only)</i></label><br>
-        <input type="text" name="name" minlength="2" required="required" pattern="[a-zA-Z]+">
-                </section>
-                <!--The user will input their name here-->
+            <aside>
+                <p>Disclaimer: Our instructors have busy lives, and something may come that will force them to cancel a lesson.
+                    If this happens, we will try our best to send in a substitute instructor, but cannot always guarantee somebody will be able to fill in.
+                </p>
+            </aside>
 
-        <section class="col-4">
-            <label for="age">Age</label><br>
-            <input type="number" name="age" required="required">
-        </section>
-        <!--The user puts their age here-->
+            <nav><a href="MusicShopLessonsSignUp.html">Click here to be taken to the sign-up page</a></nav>
+            </article>
 
-        <section id="instrument" class="col-4">
-        <label for="instrument">What instrument(s) do you want lessons for? <i>(Hold the CTRL key to select multiple)</i></label><br>
-        <select name="instrument" size="6" multiple>
-            <option value="Guitar">Guitar</option>
-            <option value="Trombone">Trombone</option>
-            <option value="Trumpet">Trumpet</option>
-            <option value="Violin">Violin</option>
-            <option value="Flute">Flute</option>
-            <option value="Clarinet">Clarinet</option>
-        </select>
-        </section>
-        </section><br>
-        <!--Here the user selects what instrument they want lessons for-->
 
-        <section class="row">
-        
-        <section id="OptimalDay" class="col-4">
-        <label for="OptimalDay">What day(s) of the week are the best time for your lessons? <i>(Hold the CTRL key to select multiple)</i></label><br>
-        <select name="OptimalDay" size="7" multiple>
-            <option value="Sunday">Sunday</option>
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-            <option value="Saturday">Saturday</option>
-        </select>
-        </section>
 
-        <section id="OptimalTime" class="col-4">
-        <label for="OptimalTime">What time of day is the best for your lessons?</label><br>
-        <select name="OptimalTime" size="3">
-            <option value="Morning">Morning</option>
-            <option value="Afternoon">Afternoon</option>
-            <option value="Evening">Evening</option>
-            </select>
-        </section>
-
-        <section id="Location" class="col-4">
-            <label for="Location">Would you prefer to have an instructor come to your home for lessons, or for you to go to Cook Music Shop for lessons?</label><br>
-            <input type="radio" id="Home" value="Home">
-            <label for="Home">Instructor comes to me</label><br>
-            <input type="radio" id="Away" value="Away">
-            <label for="Away">I go to Cook Music Shop</label><br>
-        </section>
-        </section>
-
-        <section class="row">
-
-        <section class="col-6">
-                    <label for="Address" id="Address">If you prefer for an instructor to come to you, please fill in your address</label><br>
-        <input type="text" name="Address" minlength="2" pattern="[a-zA-Z0-9]+">
-                </section>
-
-                <input type="submit" value="Submit">
-
-</section>
-        </form>
-
-            <footer class="col-5">
-            <address>
-            6065 Cunard St<br>
-            Halifax, NS, Canada<br>
-            1-902-496-6900<br>
-            CookMusic@Gmail.com
-            </address>
-            </footer>
-            <!--Some "contact information" (The address and phone number are just for Long & McQuade)-->
-    </body>
-</html>
+            <footer class="col-12">
+                <address>
+                6065 Cunard St<br>
+                Halifax, NS, Canada<br>
+                1-902-496-6900<br>
+                CookMusic@Gmail.com
+                </address>
+                </footer>
+                <!--Some "contact information"-->
+                
+            </header>
+        </body>
+    </html>
